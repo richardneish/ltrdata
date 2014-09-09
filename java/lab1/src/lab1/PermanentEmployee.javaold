@@ -1,0 +1,24 @@
+
+/**
+ * Title:        Lab 1
+ * Description:  Projektplanering
+ * Copyright:    Copyright (c)
+ * Company:
+ * @author       Andreas Jovid, Johan Lundberg,
+ *               Michael Jonsson, Olof Lagerkvist
+ * @version      1.0
+ */
+package lab1;
+
+//Det här är klassen för anställda
+class PermanentEmployee extends Employee
+{
+  public PermanentEmployee(String nameInit, double monthlyHoursInit,
+    double salaryInit, double overtimePayment)
+  {
+    name = nameInit;
+    monthlyHours = monthlyHoursInit;
+    salary = salaryInit;
+    hourlyWage = overtimePayment;
+  }
+}

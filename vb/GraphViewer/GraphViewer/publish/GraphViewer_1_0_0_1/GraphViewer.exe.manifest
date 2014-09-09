@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="GraphViewer.exe" version="1.0.0.1" publicKeyToken="bec157b8295561a3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GraphViewer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GraphViewer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GraphViewer.exe" size="73728">
+      <assemblyIdentity name="GraphViewer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>einoq628OvBFpzqIuoFmUgK3/GI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MSScriptControl.dll" size="14848">
+      <assemblyIdentity name="Interop.MSScriptControl" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>7Z+Gtut4hp2vv1eGAVfUJYoTo8w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GraphViewer.exe.config" size="3122">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>s9x5Mrl7PkB/30KoPYKj5vMfpVQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=OLOFDOM\OLOF" issuerKeyHash="b0199379d930a90833a67ea27b25decfa8479abb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>WApcW1mePRS4UTVpwiIbqsl/xbw=</DigestValue></Reference></SignedInfo><SignatureValue>CUdtg7CXVEseN0XZpar6Gv8BIe0iyPDvhRmL/GB8EqBIt9/E9M780AnmiJVMT8sK/mS6HjK+U9up/JkDJYzGomlQmwMpYlH5RP+fgsTlEl80eHmtsfrHYm9tn/pk85KL5J+EeUJOVwSL4im8H/muvbG7KyO4qNZXhCDotsHJt+Y=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sC0fWCaMgMEXx6RERXaPhNF4fdPMX9fVM6WlozVGbKkXN64LLUoIZZxyogwpAJ3dvUzv8S+W2R3SFgP/9rgZHmFoKm69xovppe+9vDyF5sLfo3IdJyeKNpVThl0aXrD+J6oYtZfaa2rzZEHr2OZUQ2/omzRhmn4/Qu/7byO03Uk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bcc57fc9aa1b22c2693551b8143d9e595b5c0a58" Description="" Url=""><as:assemblyIdentity name="GraphViewer.exe" version="1.0.0.1" publicKeyToken="bec157b8295561a3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=OLOFDOM\OLOF</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>361w8OeIh+2OR2/T23P8L1Ujn44=</DigestValue></Reference></SignedInfo><SignatureValue>lxJXolTDbpBoKimKJ4p4d8QHf19E2KqemFjRc/OvovlAFFKpVQEi4g0Y/NI8XGFvYBm3KvAsU1ZFJ/wA8P45tsLSdMpHwwKqAqYBRM81K6RJB2J6OAg5Iw/YvhRg5fTG0znhURHt8SrYSCRklUvNCAMPPaYAnm1+EXCCwXR4MKU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sC0fWCaMgMEXx6RERXaPhNF4fdPMX9fVM6WlozVGbKkXN64LLUoIZZxyogwpAJ3dvUzv8S+W2R3SFgP/9rgZHmFoKm69xovppe+9vDyF5sLfo3IdJyeKNpVThl0aXrD+J6oYtZfaa2rzZEHr2OZUQ2/omzRhmn4/Qu/7byO03Uk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCAS6gAwIBAgIQ6MdgYHU7oLBMNpn2QMXKlzAJBgUrDgMCHQUAMCMxITAfBgNVBAMeGABPAEwATwBGAEQATwBNAFwATwBMAE8ARjAeFw0wNzAzMTQxODAwMTJaFw0wODAzMTQwMDAwMTJaMCMxITAfBgNVBAMeGABPAEwATwBGAEQATwBNAFwATwBMAE8ARjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsC0fWCaMgMEXx6RERXaPhNF4fdPMX9fVM6WlozVGbKkXN64LLUoIZZxyogwpAJ3dvUzv8S+W2R3SFgP/9rgZHmFoKm69xovppe+9vDyF5sLfo3IdJyeKNpVThl0aXrD+J6oYtZfaa2rzZEHr2OZUQ2/omzRhmn4/Qu/7byO03UkCAwEAATAJBgUrDgMCHQUAA4GBAJKLPSQnbAAP/iWZ06v0meLiJBbErv8fZElcHJjzpdKqiIIW4T00Ffp/X1nPqnuHDZUBVBG3R2LN3f2icO7b8oucExQ7kAHw4hGs9x4q4HTG9SZ0lMpAOSy/MnBJokNIusRm3r2lbHeqmJu6R0/dYfGknbXcrfrzQM5ptaWIwWav</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

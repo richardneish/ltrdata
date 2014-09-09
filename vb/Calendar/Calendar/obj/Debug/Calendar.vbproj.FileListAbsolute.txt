@@ -1,0 +1,12 @@
+Z:\Kod\VB\Calendar\Calendar\obj\Debug\Calendar.exe
+Z:\Kod\VB\Calendar\Calendar\obj\Debug\Calendar.xml
+Z:\Kod\VB\Calendar\Calendar\obj\Debug\Calendar.pdb
+Z:\Kod\VB\Calendar\Calendar\bin\Debug\Calendar.exe.config
+Z:\Kod\VB\Calendar\Calendar\bin\Debug\Calendar.exe
+Z:\Kod\VB\Calendar\Calendar\bin\Debug\Calendar.pdb
+Z:\Kod\VB\Calendar\Calendar\bin\Debug\Calendar.xml
+Z:\Kod\VB\Calendar\Calendar\obj\Debug\ResolveAssemblyReference.cache
+Z:\Kod\VB\Calendar\Calendar\obj\Debug\Calendar.frmCalendar.resources
+Z:\Kod\VB\Calendar\Calendar\obj\Debug\Calendar.Resources.resources
+Z:\Kod\VB\Calendar\Calendar\obj\Debug\GenerateResource-ResGen.read.1.tlog
+Z:\Kod\VB\Calendar\Calendar\obj\Debug\GenerateResource-ResGen.write.1.tlog

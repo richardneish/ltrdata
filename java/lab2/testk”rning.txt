@@ -1,0 +1,117 @@
+F:\JAVA\LAB2\CLASSES>java lab2.Main ..\testfil.txt
+Invalid sound file URL.
+Invalid sound file URL.
+Invalid sound file URL.
+Beskrivning f÷r rum 0
+Items in this room:
+Beskrivning f÷r pryl 0
+invent
+You have no items.
+look
+Beskrivning f÷r rum 0
+Items in this room:
+Beskrivning f÷r pryl 0
+look pryl0
+Beskrivning f÷r pryl 0
+        pryl0 contains:
+        Beskrivning f÷r pryl 1
+                pryl1 contains:
+                Beskrivning f÷r pryl 3
+        Beskrivning f÷r pryl 2
+                pryl2 contains:
+                Beskrivning f÷r pryl 4
+take pryl2
+You have picked up the pryl2 from this room
+drop pryl4
+You have dropped the pryl4 into this room
+look
+Beskrivning f÷r rum 0
+Items in this room:
+Beskrivning f÷r pryl 0
+Beskrivning f÷r pryl 4
+invent
+Inventory:
+Beskrivning f÷r pryl 2
+west
+You used pryl2 to enter the room.
+Beskrivning f÷r rum 1
+This room contains no items.
+invent
+You have no items.
+east
+Beskrivning f÷r rum 0
+Items in this room:
+Beskrivning f÷r pryl 0
+Beskrivning f÷r pryl 4
+look pryl0
+Beskrivning f÷r pryl 0
+        pryl0 contains:
+        Beskrivning f÷r pryl 1
+                pryl1 contains:
+                Beskrivning f÷r pryl 3
+take pryl1
+You have picked up the pryl1 from this room
+east
+Beskrivning f÷r rum 1
+This room contains no items.
+drop pryl3
+You have dropped the pryl3 into this room
+look
+Beskrivning f÷r rum 1
+Items in this room:
+Beskrivning f÷r pryl 3
+west
+Beskrivning f÷r rum 0
+Items in this room:
+Beskrivning f÷r pryl 0
+Beskrivning f÷r pryl 4
+drop pryl1
+You have dropped the pryl1 into this room
+look
+Beskrivning f÷r rum 0
+Items in this room:
+Beskrivning f÷r pryl 0
+Beskrivning f÷r pryl 4
+Beskrivning f÷r pryl 1
+exit
+
+F:\JAVA\LAB2\CLASSES>java lab2.Main ..\labworld.txt
+Invalid sound file URL.
+Invalid sound file URL.
+Du är i ett mörkt rum som endast är upplyst av ett stearinljus.
+Items in this room:
+Guldkista. Det sitter ett rostigt lås som ser ut att vara trasigt.
+west
+You need Redkey to enter that room.
+take guldkista
+You have picked up the guldkista from this room
+invent
+Inventory:
+Guldkista. Det sitter ett rostigt lås som ser ut att vara trasigt.
+        Guldkista contains:
+        Redkey - Den röda nyckeln
+        Höna - Den vita hönan
+west
+You used Redkey to enter the room.
+Du är i ett annat rum
+This room contains no items.
+invent
+Inventory:
+Guldkista. Det sitter ett rostigt lås som ser ut att vara trasigt.
+        Guldkista contains:
+        Höna - Den vita hönan
+drop höna
+You have dropped the höna into this room
+look
+Du är i ett annat rum
+Items in this room:
+Höna - Den vita hönan
+east
+Du är i ett mörkt rum som endast är upplyst av ett stearinljus.
+This room contains no items.
+invent
+Inventory:
+Guldkista. Det sitter ett rostigt lås som ser ut att vara trasigt.
+exit
+
+F:\JAVA\LAB2\CLASSES>

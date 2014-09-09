@@ -1,0 +1,31 @@
+#include <windows.h>
+
+1 VERSIONINFO 
+FILEVERSION 1, 0, 1, 0
+PRODUCTVERSION 1, 0, 1, 0
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE    0
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "CompanyName", "Olof Lagerkvist\000\000"
+   VALUE "FileDescription", "Command line EXE info utility\000"
+   VALUE "FileVersion", "1.00\000\000"
+   VALUE "InternalName", "exelist\000"
+   VALUE "LegalCopyright", "Copyright © Olof Lagerkvist, 2001\000\000"
+   VALUE "OriginalFilename", "exelist.exe\000"
+  }
+
+ }
+
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 0x409, 1252
+ }
+
+}
+
+

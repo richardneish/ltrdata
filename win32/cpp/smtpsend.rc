@@ -1,0 +1,38 @@
+#define UNICODE
+#define _UNICODE
+#include <windows.h>
+
+
+LANGUAGE LANG_SWEDISH,1
+
+
+LANGUAGE LANG_NEUTRAL,SUBLANG_NEUTRAL
+
+
+1 VERSIONINFO 
+FILEVERSION 1, 0, 1, 0
+PRODUCTVERSION 1, 0, 1, 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "CompanyName", "Olof Lagerkvist\000\000"
+   VALUE "FileDescription", "SMTP send utility\000"
+   VALUE "FileVersion", "1.00\000\000"
+   VALUE "InternalName", "smtpsend\000"
+   VALUE "LegalCopyright", "Copyright \251 Olof Lagerkvist, 2013\000\000"
+   VALUE "OriginalFilename", "smtpsend.exe\000"
+  }
+
+ }
+
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 1033, 1252
+ }
+
+}
+

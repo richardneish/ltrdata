@@ -1,0 +1,9 @@
+all: p:\utils\GraphViewerInstaller.exe
+
+install: p:\utils\GraphViewerInstaller.exe
+
+p:\utils\GraphViewerInstaller.exe: 7zsfxcfg.txt GraphViewerInstaller.7z
+	copy /b p:\utils\7zSD.sfx + 7zsfxcfg.txt + GraphViewerInstaller.7z $@
+
+GraphViewerInstaller.7z: GraphViewer.exe LTRLib20.dll GraphViewerInstaller.vbs install.bat
+	7z a GraphViewerInstaller.7z -m0=LZMA:a=2 GraphViewer.exe LTRLib20.dll GraphViewerInstaller.vbs install.bat

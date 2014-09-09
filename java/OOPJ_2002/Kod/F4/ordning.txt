@@ -1,0 +1,12 @@
+Ordning på exemplen:
+
+1) app. Visar de olika delarna på appleten
+2) textflash - visar paint och ljud plus hämtande av parameter
+3) text - color, font och fomtMetrics
+4) trad1- visar på en extra tråd plus huvudprogrammet.
+5) trad - visar på synkronisering
+6) tradapp - visar på dubbelbuffring mot flimmer. Ställ om klassfil i HTML
+7) bollar - visar tre trådar
+8) lyssnare - visar en enkel muslyssnare
+9) rita - visar på muslyssnare med mer funktionalitet
+10) komp - visar på händelsehantering med komponeter

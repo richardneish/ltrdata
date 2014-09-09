@@ -1,0 +1,29 @@
+-1 är ett specialnummer. Det betyder "inget rum" eller "inget objekt".
+;Ljud;Beskrivning;EntrenceItem;W;Ö;N;S:ItemsRadNr 1
+[Chestroom]
+[rooms]
+file://C:\Temp\aufiles\os2\shred.au;You're in a dark room dimly lit by a candle. A somtething is gleaming in one of the corners.;-1;1;1;1;1;1
+
+[Outside]
+[rooms]
+file://C:\Temp\aufiles\os2\beoop.au;A large mountain is seen ahead to the north, westwards a plain extends towards the horizon. East of you a yellow pair of eyes peers through the mist.  -1;0;0;0;0;0
+[CSN]
+[rooms]
+file://C:\Temp\..beethoven9th.au;A crouded room full of desperate people. In the far end of the desk an ugly looking bitch is refusing application. By the window is a snare for anyone who wishes relief. -1;0;0;0;0
+[Cellen]
+[rooms]
+File://C:\temp\..;The light filters through the filthy window in the west wall, and you can see the dust whirling. There's a window in the west wall. The floor is filled with white sculls grinning back at you. The door is branded with the hated CSN mark
+[SnutBilen]
+[rooms]
+File://C:\temp\..siren.au ; It's a bumpy ride.. A drunk punk has puked on the floor and the cops takes turns in beating him. 
+
+[items]
+pryl0;Beskrivning för pryl;1;2
+chest; An old chest, the large lock is rusty and probably broken;3;4
+pryl2;Beskrivning för pryl;4
+redkey;A small redkey,  
+hen;A puny white hen, looks delisious
+axe;An Axe, about three feet long  and a sharp edge
+explosives;Plastic explosives, Gray easily attached to objects.
+TNT;TNT, Red TNT sticks with a warning Exlposive sign
+

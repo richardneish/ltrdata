@@ -1,0 +1,3 @@
+Z:\Kod\VB\gethost\gethost\obj\Release\gethost.exe
+Z:\Kod\VB\gethost\gethost\obj\Release\gethost.xml
+Z:\Kod\VB\gethost\gethost\obj\Release\gethost.pdb

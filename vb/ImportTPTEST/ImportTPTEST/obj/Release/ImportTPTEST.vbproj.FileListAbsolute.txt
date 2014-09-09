@@ -1,0 +1,9 @@
+Z:\Kod\VB\ImportTPTEST\ImportTPTEST\obj\Release\ImportTPTEST.exe
+Z:\Kod\VB\ImportTPTEST\ImportTPTEST\obj\Release\ImportTPTEST.xml
+Z:\Kod\VB\ImportTPTEST\ImportTPTEST\obj\Release\ImportTPTEST.pdb
+Z:\Kod\VB\ImportTPTEST\ImportTPTEST\bin\Release\ImportTPTEST.exe.config
+Z:\Kod\VB\ImportTPTEST\ImportTPTEST\bin\Release\ImportTPTEST.exe
+Z:\Kod\VB\ImportTPTEST\ImportTPTEST\bin\Release\ImportTPTEST.pdb
+Z:\Kod\VB\ImportTPTEST\ImportTPTEST\bin\Release\ImportTPTEST.xml
+Z:\Kod\VB\ImportTPTEST\ImportTPTEST\obj\Release\ImportTPTEST.Resources.resources
+Z:\Kod\VB\ImportTPTEST\ImportTPTEST\obj\Release\ImportTPTEST.vbproj.GenerateResource.Cache

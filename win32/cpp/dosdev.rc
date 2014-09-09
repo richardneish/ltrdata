@@ -1,0 +1,32 @@
+#include "dosdev.rh"
+
+#include <windows.h>
+
+VERSIONINFO_1 VERSIONINFO 
+FILEVERSION 1, 0, 0, 0
+PRODUCTVERSION 1, 0, 0, 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "CompanyName", "Olof Lagerkvist\000\000"
+   VALUE "FileDescription", "Windows NT DosDevice command line tool\000"
+   VALUE "FileVersion", "1.00\000\000"
+   VALUE "InternalName", "dosdev\000"
+   VALUE "LegalCopyright", "Copyright © Olof Lagerkvist 1997-1999\000\000"
+   VALUE "OriginalFilename", "dosdev.exe\000"
+  }
+
+ }
+
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 0x409, 1252
+ }
+
+}
+
+

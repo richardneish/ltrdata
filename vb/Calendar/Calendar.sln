@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Calendar", "Calendar\Calendar.vbproj", "{B405D90A-27C2-49AD-980B-F82B832E387D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B405D90A-27C2-49AD-980B-F82B832E387D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B405D90A-27C2-49AD-980B-F82B832E387D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B405D90A-27C2-49AD-980B-F82B832E387D}.Debug|x86.ActiveCfg = Debug|x86
+		{B405D90A-27C2-49AD-980B-F82B832E387D}.Debug|x86.Build.0 = Debug|x86
+		{B405D90A-27C2-49AD-980B-F82B832E387D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B405D90A-27C2-49AD-980B-F82B832E387D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B405D90A-27C2-49AD-980B-F82B832E387D}.Release|x86.ActiveCfg = Release|x86
+		{B405D90A-27C2-49AD-980B-F82B832E387D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

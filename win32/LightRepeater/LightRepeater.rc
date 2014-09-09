@@ -1,0 +1,36 @@
+#include "LightRepeater.rc.h"
+
+#include <windows.h>
+
+IDI_APPICON ICON DISCARDABLE "LightRepeater.ico"
+
+1 VERSIONINFO 
+FILEVERSION 1, 0, 1, 2
+PRODUCTVERSION 1, 0, 1, 2
+FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "CompanyName", "SM6XMK Olof Lagerkvist\000"
+   VALUE "FileDescription", "SM6XMK LightRepeater Engine ver 1.01\000"
+   VALUE "FileVersion", "1.0.1.2\000"
+   VALUE "InternalName", "LightRepeater\000"
+   VALUE "LegalCopyright", "Copyright \251 SM6XMK, Olof Lagerkvist, 2001\000"
+   VALUE "LegalTrademarks", "\000"
+   VALUE "OriginalFilename", "LightRepeater.exe\000"
+   VALUE "ProductName", "SM6XMK LightRepeater\000"
+   VALUE "ProductVersion", "1.01\000"
+  }
+
+ }
+
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 1033, 1252
+ }
+
+}

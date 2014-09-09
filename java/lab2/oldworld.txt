@@ -1,0 +1,12 @@
+-1 är ett specialnummer. Det betyder "inget rum" eller "inget objekt".
+
+[rooms]
+file://C:\Temp\aufiles\os2\shred.au;Du är i ett mörkt rum som endast är upplyst av ett stearinljus som kastar sitt ljus över en kista i guld. Du går fram till kistan. Det sitter ett rostigt lås som ser ut att vara trasigt. ;-1;1;1;1;1;1
+file://C:\Temp\aufiles\os2\beoop.au;Beskrivning för rum 1;0;0;0;0;0
+
+[items]
+pryl0;Beskrivning för pryl 0;1;2
+Guldkista; Guldkista;3;4
+pryl2;Beskrivning för pryl 2;4
+Redkey;Den röda nyckeln
+Höna;Den vita hönan

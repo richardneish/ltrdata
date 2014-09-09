@@ -1,0 +1,27 @@
+EXPORTS
+	AcceptEx = wsock32.AcceptEx @1
+	EnumProtocolsA = wsock32.EnumProtocolsA @2
+	EnumProtocolsW = wsock32.EnumProtocolsW @3
+	GetAcceptExSockaddrs = wsock32.GetAcceptExSockaddrs @4
+	GetAddressByNameA = wsock32.GetAddressByNameA @5
+	GetAddressByNameW = wsock32.GetAddressByNameW @6
+	GetNameByTypeA = wsock32.GetNameByTypeA @7
+	GetNameByTypeW = wsock32.GetNameByTypeW @8
+	GetServiceA = wsock32.GetServiceA @9
+	GetServiceW = wsock32.GetServiceW @10
+	GetTypeByNameA = wsock32.GetTypeByNameA @11
+	GetTypeByNameW = wsock32.GetTypeByNameW @12
+	MigrateWinsockConfiguration = wsock32.MigrateWinsockConfiguration @13
+	NPLoadNameSpaces = wsock32.NPLoadNameSpaces @14
+	SetServiceA = wsock32.SetServiceA @15
+	SetServiceW = wsock32.SetServiceW @16
+	TransmitFile = wsock32.TransmitFile @17
+	WSARecvEx = wsock32.WSARecvEx @18
+	dn_expand = wsock32.dn_expand @19
+	getnetbyname = wsock32.getnetbyname @20
+	inet_network = wsock32.inet_network @21
+	rcmd = wsock32.rcmd @22
+	rexec = wsock32.rexec @23
+	rresvport = wsock32.rresvport @24
+	s_perror = wsock32.s_perror @25
+	sethostname = wsock32.sethostname @26

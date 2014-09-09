@@ -1,0 +1,80 @@
+#include "lrevents.rc.h"
+
+#include <windows.h>
+
+IDI_FIRSTICON ICON DISCARDABLE "LightRepeater.ico"
+
+STRINGTABLE 
+{
+ IDS_CPLAPPLET_TITLE, "LightRepeater"
+ IDS_CPLAPPLET_DESCRIPTION, "SM6XMK LightRepeater settings"
+}
+
+1 VERSIONINFO 
+FILEVERSION 1, 0, 1, 60
+PRODUCTVERSION 1, 0, 1, 60
+FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_DLL
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "CompanyName", "SM6XMK Olof Lagerkvist\000"
+   VALUE "FileDescription", "LightRepeater Control Panel Applet ver 1.01\000"
+   VALUE "FileVersion", "1.0.1.60\000"
+   VALUE "InternalName", "lrevents\000"
+   VALUE "LegalCopyright", "Copyright \251 SM6XMK, Olof Lagerkvist, 2001\000"
+   VALUE "LegalTrademarks", "\000"
+   VALUE "OriginalFilename", "lrevents.cpl\000"
+   VALUE "ProductName", "SM6XMK LightRepeater\000"
+   VALUE "ProductVersion", "1.01\000"
+   VALUE "Comments", "\000"
+  }
+
+ }
+
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 1033, 1252
+ }
+
+}
+
+IDD_CPLAPPLET DIALOG 0, 0, 248, 241
+EXSTYLE WS_EX_DLGMODALFRAME | WS_EX_CONTROLPARENT
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_OVERLAPPED | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "LightRepeater settings"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "You can schedule sound files to be played by the repeater at one time every day. The sound is followed by a time announcement, and repeater ID. This can for example be used to announce events by playing a recorded wavefile or announce time every hour.", 101, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 8, 232, 36
+ CONTROL "Anno times:", 104, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 43, 40, 9
+ CONTROL "", IDC_LSTB_ANNOUNCE_TIMES, "listbox", LBS_STANDARD | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 52, 40, 76
+ CONTROL "&New announce time", IDC_GRPB_NEW_ANNOUNCE_TIME, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 52, 47, 92, 25
+ CONTROL "", IDC_EDT_HOUR, "edit", ES_LEFT | ES_NUMBER | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 56, 56, 16, 13
+ CONTROL ":", 107, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 73, 58, 4, 13
+ CONTROL "", IDC_EDT_MINUTE, "edit", ES_LEFT | ES_NUMBER | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 76, 56, 16, 13
+ CONTROL "Create new", IDC_BTN_CREATE_NEW, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 96, 56, 44, 13
+ CONTROL "De&lete announcement", IDC_BTN_DELETE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 148, 56, 76, 13
+ CONTROL "&Select sound for this announcement", IDC_GRPB_SOUND, "button", BS_GROUPBOX | WS_CHILD | NOT WS_VISIBLE | WS_GROUP, 52, 76, 188, 52
+ CONTROL "&Default sound", IDC_RDB_DEFAULT_SOUND, "button", BS_AUTORADIOBUTTON | WS_CHILD | NOT WS_VISIBLE | WS_GROUP | WS_TABSTOP, 56, 88, 60, 9
+ CONTROL "&No sound", IDC_RDB_NO_SOUND, "button", BS_AUTORADIOBUTTON | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 56, 100, 60, 9
+ CONTROL "&File:", IDC_RDB_FILE, "button", BS_AUTORADIOBUTTON | WS_CHILD | NOT WS_VISIBLE, 56, 112, 28, 9
+ CONTROL "", IDC_EDT_FILE, "edit", ES_LEFT | ES_AUTOHSCROLL | ES_OEMCONVERT | WS_CHILD | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP, 84, 110, 90, 13
+ CONTROL "&Browse...", IDC_BTN_BROWSE_FILE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 174, 110, 36, 13
+ CONTROL "&Test", IDC_BTN_TEST, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 212, 110, 22, 13
+ CONTROL "Save", IDC_BTN_SAVE_ANNOUNCEMENT, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 140, 88, 44, 13
+ CONTROL "&Undo", IDC_BTN_UNDO_ANNOUNCEMENT, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 188, 88, 44, 13
+ CONTROL "Frame1", 102, "static", SS_ETCHEDFRAME | SS_SUNKEN | WS_CHILD | WS_VISIBLE, 4, 4, 240, 128
+ CONTROL "The repeater uses voice synthesis to announce time. The synthesis is built up by voice files for each number, letter etc. Here you enter the path where LightRepeater can find the voice files.", IDC_STATICTEXT1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 140, 232, 29
+ CONTROL "Voice synthesis", IDC_GRPB_VOICE_SYNTH, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 168, 232, 48
+ CONTROL "&Path to voice synthesis files", 129, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 12, 187, 108, 10
+ CONTROL "", IDC_EDT_PATH, "edit", ES_LEFT | ES_AUTOHSCROLL | ES_OEMCONVERT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 12, 196, 186, 13
+ CONTROL "Bro&wse...", IDC_BTN_BROWSE_VOICE_PATH, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 198, 196, 36, 13
+ CONTROL "Save", IDC_BTN_SAVE_VOICE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 140, 178, 44, 13
+ CONTROL "Und&o", IDC_BTN_UNDO_VOICE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 188, 178, 44, 13
+ CONTROL "Frame1", IDC_STATICFRAME1, "static", SS_ETCHEDFRAME | SS_SUNKEN | WS_CHILD | WS_VISIBLE, 4, 136, 240, 84
+ CONTROL "&About", IDC_BTN_ABOUT, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 224, 56, 14
+ CONTROL "&Close", IDC_BTN_CLOSE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 188, 224, 56, 14
+}

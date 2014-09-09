@@ -1,0 +1,32 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Dataviewer.vbproj.GenerateResource.Cache
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Dataviewer.vbproj.GenerateResource.Cache
+obj\Release\Dataviewer.Resources.resources
+obj\Debug\Dataviewer.Resources.resources
+obj\Release\Dataviewer.Dataviewer.resources
+obj\Debug\Dataviewer.Dataviewer.resources
+bin\Debug\ODBC Dataviewer.exe.config
+bin\Debug\ODBC Dataviewer.exe.manifest
+bin\Debug\ODBC Dataviewer.application
+bin\Debug\ODBC Dataviewer.exe
+bin\Debug\ODBC Dataviewer.pdb
+bin\Debug\ODBC Dataviewer.xml
+obj\Debug\Dataviewer.AboutBox.resources
+obj\Debug\ODBC Dataviewer.exe.manifest
+obj\Debug\ODBC Dataviewer.application
+obj\Debug\ODBC Dataviewer.exe
+obj\Debug\ODBC Dataviewer.xml
+obj\Debug\ODBC Dataviewer.pdb
+obj\Release\Dataviewer.AboutBox.resources
+bin\Release\Dataviewer.exe.config
+bin\Release\Dataviewer.exe.manifest
+bin\Release\Dataviewer.application
+bin\Release\Dataviewer.exe
+bin\Release\Dataviewer.pdb
+bin\Release\Dataviewer.xml
+obj\Release\Dataviewer.exe.manifest
+obj\Release\Dataviewer.application
+obj\Release\Dataviewer.exe
+obj\Release\Dataviewer.xml
+obj\Release\Dataviewer.pdb

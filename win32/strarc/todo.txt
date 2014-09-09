@@ -1,0 +1,18 @@
+* Sswitch to using NtQueryDirectoryFile and other native calls. (Done 0.2.0.)
+
+* Store directory _after_ files in the directory, so that restore operation can set dates as appropriate. (Done 0.1.5.)
+
+* Restore sparse attributes _before_ data streams. (Done 0.1.5.)
+
+* "List what would be done" switch to -c. (Switch -n done 0.2.0.)
+
+* Change CopyFile() to use BackupRead()/BackupWrite() to duplicate files when not restoring hard links. (Done 0.2.0.)
+
+* Archive attributes not cleared. (Bugfix 0.2.0d)
+
+* Include/exclude strings not handled correctly, except first. (Bugfix 0.2.0e)
+
+* Use FSCTL_READ_RAW_ENCRYPTED or similar to backup encrypted files.
+
+* Files with more than one alternate data stream was not extracted correctly. (Bugfix 0.3.0e)
+

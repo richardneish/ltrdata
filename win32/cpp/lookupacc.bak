@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+#include <windows.h>
+#include <winbase.h>
+#include <winuser.h>
+
+int PASCAL WinMain(HINSTANCE, HINSTANCE, LPSTR lpCmdLine, int)
+{
+	char username[260] = "";
+   char userdomain[260] = "";
+	DWORD userdomainsiz = sizeof(userdomain);
+   char *computername;
+   PSID userSID;
+   DWORD userSIDsiz;
+	SID_IDENTIFIER_AUTHORITY SIDauth;
+   SID_NAME_USE SIDnameuse;
+
+   if( *lpCmdLine )
+   	computername = lpCmdLine;
+   else
+   	computername = NULL;
+
+   if( AllocateAndInitializeSid( &SIDauth, 1, 0, 0, 0, 0, 0, 0, 0, 0, &userSID ) )
+   	MessageBox( NULL, "AllocateAndInitializeSid() failed.", NULL, MB_ICONSTOP | MB_SETFOREGROUND );
+
+   if( LookupAccountName( computername, username, &userSID, &userSIDsiz, userdomain, &userdomainsiz, &SIDnameuse ) == 0 )
+   	MessageBox( NULL, "LookupAccountName() failed.", NULL, MB_ICONSTOP | MB_SETFOREGROUND );
+
+	char buf[4096];
+   sprintf( buf, "Datornamn: %s\r\nAnvändarnamn: %s\r\nDomän: %s", computername, username, userdomain );
+	MessageBox( NULL, buf, "LookupAccountName() return data", MB_ICONINFORMATION | MB_SETFOREGROUND );
+}

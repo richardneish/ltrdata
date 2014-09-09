@@ -1,0 +1,2 @@
+#define STRARC_VERSION "0.3.0e"
+#define STRARC_VERSION_INFO 0,3,0,42

@@ -1,0 +1,8 @@
+[rooms]
+/;Du „r i ett m”rkt rum som endast „r upplyst av ett stearinljus.;-1;1;1;1;1;0
+/;Du „r i ett annat rum;1;0;0;0;0
+
+[items]
+Guldkista;Guldkista. Det sitter ett rostigt l†s som ser ut att vara trasigt.;1;2
+Redkey;Redkey - Den r”da nyckeln
+H”na;H”na - Den vita h”nan

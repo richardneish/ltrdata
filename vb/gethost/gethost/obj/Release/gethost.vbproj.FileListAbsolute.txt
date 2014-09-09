@@ -1,0 +1,9 @@
+Z:\Kod\VB\gethost\gethost\obj\Release\gethost.exe
+Z:\Kod\VB\gethost\gethost\obj\Release\gethost.xml
+Z:\Kod\VB\gethost\gethost\obj\Release\gethost.pdb
+Z:\Kod\VB\gethost\gethost\bin\Release\gethost.exe
+Z:\Kod\VB\gethost\gethost\bin\Release\gethost.pdb
+Z:\Kod\VB\gethost\gethost\bin\Release\gethost.xml
+Z:\Kod\VB\gethost\gethost\obj\Release\ResolveAssemblyReference.cache
+Z:\Kod\VB\gethost\gethost\obj\Release\gethost.Resources.resources
+Z:\Kod\VB\gethost\gethost\obj\Release\gethost.vbproj.GenerateResource.Cache

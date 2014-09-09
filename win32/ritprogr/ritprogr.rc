@@ -1,0 +1,63 @@
+/****************************************************************************
+
+
+ritprogr.rc
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+#include "ritprogr.rc.h"
+
+#include <windows.h>
+
+IDM_MENU MENU 
+{
+ POPUP "&Arkiv"
+ {
+  MENUITEM "&Ny bakgrund...", mnuFileNew
+  MENUITEM SEPARATOR
+  MENUITEM "&Avsluta", mnuFileExit
+ }
+
+ POPUP "Rit&färg"
+ {
+  MENUITEM "&Röd", mnuColorRed, CHECKED
+  MENUITEM "&Grön", mnuColorGreen
+  MENUITEM "&Blå", mnuColorBlue
+  MENUITEM SEPARATOR
+  MENUITEM "&Annan...", mnuColorOther
+ }
+
+ POPUP "&Verktyg"
+ {
+  MENUITEM "&Linje", mnuToolLine, CHECKED
+  MENUITEM "&Cirkel", mnuToolCircle
+  MENUITEM "&Rektangel", mnuToolRectangle
+  MENUITEM "&Text", mnuToolText
+  MENUITEM "&Frihand", mnuToolFreehand
+ }
+
+ POPUP "&Text"
+ {
+  MENUITEM "Välj &text...", mnuTextChooseText
+  MENUITEM "Välj &typsnitt...", mnuTextChooseFont
+ }
+
+}
+
+IDI_FIRSTICON ICON DISCARDABLE "ritprogr.ico"
+
+MY_TEXTBOX DIALOG 0, 0, 183, 42
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Skriv in text"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "", EDIT, "edit", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER, 4, 8, 176, 13
+ CONTROL "OK", IDOK, "BUTTON", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE, 4, 24, 50, 14
+ CONTROL "Cancel", IDCANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE, 60, 24, 50, 14
+}
+
+
+

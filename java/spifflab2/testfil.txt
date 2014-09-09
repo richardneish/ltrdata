@@ -1,0 +1,21 @@
+# Detta är en exempelfil som förklarar syntaxen.
+# 
+# Nummer -1 betyder "inget rum" eller "inget föremål".
+# T ex om det krävs föremål -1 för att komma in i ett rum
+# så betyder det att det inte krävs något föremål alls.
+
+# Under rubriken [rooms] definieras rummen. Syntaxen är:
+# Rummets namn;Rummets beskrivning;Föremål som krävs för att komma in i rummet;Rum i väster;Rum i öster;Rum i norr;Rum i söder;Föremål1 i rummet;Föremål2 i rummet osv...
+[rooms]
+Namn på rum 0;Beskrivning för rum 0;-1;1;1;1;1;0
+Namn på rum 1;Beskrivning för rum 1;2;0;0;0;0
+Namn på rum 1;Beskrivning för rum 1;2;0;0;0;0
+
+# Under rubriken [items] definieras föremålen. Syntaxen är:
+# Föremålets namn;Föremålets beskrivning;Föremål1 i föremålet;Föremål2 i föremålet osv...
+[items]
+pryl0;Beskrivning för pryl 0;1;2
+pryl1;Beskrivning för pryl 1;3
+pryl2;Beskrivning för pryl 2;4
+pryl3;Beskrivning för pryl 3
+pryl4;Beskrivning för pryl 4

@@ -1,0 +1,11 @@
+[PropertyInfo]
+eastRoom,Room,false,false, , ,true,<default>
+entranceItem,int,false,false, , ,true,<default>
+northRoom,Room,false,false, , ,true,<default>
+southRoom,Room,false,false, , ,true,<default>
+westRoom,Room,false,false, , ,true,<default>
+[IconNames]
+
+
+
+

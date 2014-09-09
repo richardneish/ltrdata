@@ -1,0 +1,1 @@
+@start /low P:\Java\j2re1.4.0\bin\javaw -classpath P:\Java\j2re1.4.0\lib\rt.jar;Z:\Kod\Java\lab3\JAVA lab3.FourInRow

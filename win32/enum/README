@@ -1,0 +1,46 @@
+
+Program: enum
+Author: Jordan Ritter <jpr5@darkridge.com>
+Version: 1.0
+
+
+Purpose:
+
+  A tool to enumerate, using null and user sessions, Win32 (NT)
+  information.
+
+
+Description:
+
+  enum is a console-based Win32 information enumeration utility.
+  Using null sessions, enum can retrieve userlists, machine lists,
+  sharelists, namelists, group and member lists, password and LSA
+  policy information.  enum is also capable of a rudimentary brute
+  force dictionary attack on individual accounts.
+
+
+Usage:
+
+  enum <-UMNSPGLdc> <-u username> <-p password> <-f dictfile> <hostname|ip>
+
+  -U  is get userlist
+  -M  is get machine list
+  -N  is get namelist dump (different from -U|-M)
+  -S  is get sharelist
+  -P  is get password policy information
+  -G  is get group and member list
+  -L  is get LSA policy information
+  -D  is dictionary crack, needs -u and -f
+  -d  is be detailed, applies to -U and -S
+  -c  is don't cancel sessions
+  -u  is specify username to use (default "")
+  -p  is specify password to use (default "")
+  -f  is specify dictfile to use (wants -D)
+
+
+Requirements:
+
+  o Microsoft Visual C++ 
+  o Windows NT 
+  o Sense of Humour
+
